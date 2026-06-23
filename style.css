@@ -290,3 +290,31 @@ footer {
 .material-card {
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .materials {
+    margin: 2rem 1rem;
+    padding: 2rem 1.25rem;
+  }
+
+  .materials h2,
+  .materials-heading {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  .materials-intro {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .materials-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .material-card {
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+}
