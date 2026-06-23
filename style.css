@@ -276,11 +276,13 @@ footer {
 }
 .materials-heading {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #0d3b2e;
   font-family: "Cormorant Garamond", serif;
+  font-size: 3.4rem;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #0d3b2e;
+  margin-bottom: 1.25rem;
 }
 .material-icon {
   display: block;
@@ -293,4 +295,7 @@ footer {
   color: #b98a2e;
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+}
+.material-card {
+  text-align: center;
 }
